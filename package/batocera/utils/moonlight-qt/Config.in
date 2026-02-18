@@ -8,6 +8,7 @@ config BR2_PACKAGE_MOONLIGHT_QT
 	select BR2_PACKAGE_OPENSSL
 	select BR2_PACKAGE_FFMPEG
 	select BR2_PACKAGE_FFMPEG_SWSCALE
+	select BR2_PACKAGE_QT6WAYLAND
 	help
 	  GameStream client for PCs
 
